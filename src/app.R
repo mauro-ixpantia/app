@@ -13,7 +13,7 @@ library(shiny)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  "hi"
+  private::greet()
 )
 
 # Define server logic required to draw a histogram
