@@ -6,6 +6,8 @@ You need a GitHub token. This example uses it by setting the environment variabl
 
 ```bash
 docker build --build-arg GITHUB_PAT=yourgithubpat -t app .
+
+docker run --rm -p 8080:8080 app
 ```
 
 
